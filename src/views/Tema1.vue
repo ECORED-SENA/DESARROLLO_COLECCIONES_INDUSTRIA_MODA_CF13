@@ -87,7 +87,7 @@
 
     p.mb-5 Este tipo de fibra de composición sintética se construye usando parte de material vegetal o animal y que mezclado con otro tipo de elementos químicos forman filamentos continuos, obteniendo así mayor durabilidad y resistencia, algunas de las fibras sintéticas más empleadas en confección son las siguientes: 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5 
       .col-lg-9
         .row.align-items-center.cajon-extra.pink.mb-5
           .col-lg-4
@@ -117,16 +117,51 @@
     p.mb-5 Estas fibras sintéticas son creadas totalmente por el ser humano a partir de elementos químicos derivados del petróleo, las cuales tienen propiedades para brindar mayor durabilidad, resistencia, secado rápido con lo que se elimina el planchado. Entre las más utilizadas en confección están las siguientes: nailon o poliamida, poliéster, polipropileno y elastómeros.
 
     // TODO: Completar botones de clasificacion de fibras artificales
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Nailon o Poliamida")
-        h4 PASO 1: The splendor
-        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-          strong user style sheets
-          |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Poliester")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Acrilán/acrílicos")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Elastómero")
+    TabsA.color-primario.mb-5
+      .tarjeta.color-acento-contenido.p-4(titulo="Nailon o Poliamida")
+        .row.justify-content-center.px-1.py-3.align-items-center
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen24.jpg")
+          .col-lg-7
+            p.mb-0
+              strong Acrilán/acrílicos
+              br
+              br
+              | Es una fibra sintética resistente a las polillas, es de fácil planchado, menor peso, puede imitar a otras fibras como el algodón o la lana en apariencia. Se pueden confeccionar prendas como chaquetas, pantalones y ropa infantil. La materia prima de la tela es acrilán/lana.
+      .tarjeta.color-acento-contenido.p-4(titulo="Poliester")
+        .row.justify-content-center.px-1.py-3.align-items-center
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen24.jpg")
+          .col-lg-7
+            p.mb-0
+              strong Poliéster
+              br
+              br
+              | Es un polímero que tiene propiedades como bajo peso, solidez en el color; se mezcla con facilidad con otras fibras.
+      .tarjeta.color-acento-contenido.p-4(titulo="Acrilán/acrílicos")
+        .row.justify-content-center.px-1.py-3.align-items-center
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen24.jpg")
+          .col-lg-7
+            p.mb-0
+              strong Acrilán/acrílicos
+              br
+              br
+              | Es una fibra sintética resistente a las polillas, es de fácil planchado, menor peso, puede imitar a otras fibras como el algodón o la lana en apariencia. Se pueden confeccionar prendas como chaquetas, pantalones y ropa infantil.
+      .tarjeta.color-acento-contenido.p-4(titulo="Elastómero")
+        .row.justify-content-center.px-1.py-3.align-items-center
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen24.jpg")
+          .col-lg-7
+            p.mb-0
+              strong Elastómero
+              br
+              br
+              | Es un polímero conocido en el ámbito textil como lycra (marca comercial); el elastómero presenta muy buena capacidad de elongación sin deformarse, se usa en la confección de ropa interior y deportiva.
 
     h3.titulo-tercero Fibras inteligentes
 
