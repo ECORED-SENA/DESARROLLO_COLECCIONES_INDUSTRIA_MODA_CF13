@@ -130,7 +130,7 @@
 
     h3.titulo-tercero Fibras inteligentes
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-lg-0.mb-5
         figure.offset-image.pink
           img(src="@/assets/curso/tema1-imagen7.jpg")
@@ -140,8 +140,250 @@
     h3.titulo-tercero Definición de hilos
 
     p.mb-5 El hilo es el resultado de someter las hebras a torsiones para obtener una longitud extensa y con resistencia para costura o la elaboración de telas, para los hilos se pueden usar fibras naturales, artificiales y sintéticas o también es posible combinarlas.
-
     
+    .row.justify-content-center.mb-5
+      .col-lg-9
+        .cajon.color-acento-contenido.p-4.mb-4
+          .row.justify-content-center.align-items-center
+            .col-2
+              figure
+                img(src="@/assets/curso/tema1-imagen8.svg")
+            .col-8
+              .h5 Los hilos se clasifican según
+              ol.lista-ol.mb-0
+                li.mb-0
+                  span.text-bold a. 
+                  | Sistema de hilatura (tejido punto /tejido plano).
+                li.mb-0
+                  span.text-bold b. 
+                  | Uso final.
+                li.mb-0
+                  span.text-bold c. 
+                  | Estructura física del hilo (calibre o acabados).
+                li.mb-0
+                  span.text-bold d. 
+                  | Tipo de materia prima utilizada (fibras naturales, artificiales o sintéticas).
+    
+    TabsB.color-primario.mb-5
+      .py-4.py-md-5(titulo="Hilatura" :icono="require('@/assets/curso/tema1-imagen9.svg')")
+        .row.justify-content-center
+          .col-lg-9
+            .row
+              .col-6
+                figure
+                  img(src="@/assets/curso/tema1-imagen12.png")
+              .col-6
+                p.mb-0
+                  strong Hilatura
+                  br
+                  br
+                  | Materia prima para la construcción de telas: hilos para trama, urdimbre o tejido de punto.
+      .py-4.py-md-5(titulo="Procesos de costura" :icono="require('@/assets/curso/tema1-imagen10.svg')")
+        .row.justify-content-center
+          .col-lg-9
+            .row
+              .col-6
+                figure
+                  img(src="@/assets/curso/tema1-imagen12.png")
+              .col-6
+                p.mb-0
+                  strong Hilatura
+                  br
+                  br
+                  | Materia prima para la construcción de telas: hilos para trama, urdimbre o tejido de punto.
+      .py-4.py-md-5(titulo="Hilos industriales" :icono="require('@/assets/curso/tema1-imagen11.svg')")
+        .row.justify-content-center
+          .col-lg-9
+            .row
+              .col-6
+                figure
+                  img(src="@/assets/curso/tema1-imagen12.png")
+              .col-6
+                p.mb-0
+                  strong Hilatura
+                  br
+                  br
+                  | Materia prima para la construcción de telas: hilos para trama, urdimbre o tejido de punto.
+      
+    
+    h3.titulo-tercero Características y usos de los hilos
+
+    p.mb-5 Para que un hilo tenga condiciones de uso debe tener las siguientes características:
+
+    .row.justify-content-center.align-items-center
+      .col-lg-4.mb-lg-0.mb-5
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Resistencia a la tracción.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Tenacidad.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Alargamiento o elasticidad.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Resistencia a la abrasión.
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | Torsión.
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            | Ductilidad.
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            | Solidez.
+
+      .col-lg-4.offset-1
+        figure.mb-5
+          img(src="@/assets/curso/tema1-imagen13.svg")
+        p.mb-0 El conjunto de estas propiedades hace posible que se puedan tejer telas y unir piezas mediante los procesos de costura y estos hilos sean aptos para realizar los trabajos de costura y confección. 
+    
+    Separador
+
+    #t_1_2.titulo-segundo
+      h2 1.2    Tipos de tejidos
+
+    p.mb-5 A continuación, se describen los diferentes tipos de tejidos.
+
+    .row.justify-content-center.align-items-center.mb-5 
+      .col-lg-6.mb-lg-0.mb-5
+        figure.offset-image.blue
+          img(src="@/assets/curso/tema1-imagen14.jpg")
+      .col-lg-6
+        p.mb-0 Este tipo de tejido está constituido por hilos entrelazados longitudinalmente formando un ángulo de 90 grados, se conocen los hilos horizontales con trama, presenta mayor elongación que la urdimbre, que corresponde a los hilos verticales. Es un tejido rígido y resistente, usado para la confección de ropa exterior, ropa hogar y usos industriales. 
+    
+    h4.titulo-cuarto Tipos de ligamento en tejido plano
+
+    p.mb-5 En este tipo de tejido se presentan diversos ligamentos que corresponden a diferentes formas en las que se entrelazan los hilos obteniendo así variedad en diseño; entre los básicos están tafetán o plano, sarga o diagonal, satín o raso.
+
+    // TODO: pendiente imagenes con giro
+
+    h3.titulo-tercero Tejido de punto
+
+    .row.justify-content-center.mb-3
+      .col-lg-10
+        .row.ps-4.align-items-center(style="background-color: #D8EFFB;")
+          .col-lg-4.mb-lg-0.mb-5
+            figure.mb-2(style="min-width: 100%; text-align: center;")
+              img(src="@/assets/curso/tema1-imagen16.jpg" style="max-height: 120px; object-fit: contain;")
+            p.mb-0 Imagen de tejido de punto, donde se puede observar como el hilo se entrelaza en sí mismo.
+          .col-lg-8
+            img(src="@/assets/curso/tema1-imagen15.jpg")
+
+    p.mb-5.text-center Máquina circular utilizada para el proceso de tejeduría para el tejido de punto. 
+
+    p.mb-5 El tejido de punto está formado por mallas entrelazadas en sí mismas en las que se distinguen dos tipos de tejido: de punto por trama y de punto por urdimbre.
+
+    h3.titulo-tercero Tejido de punto por trama
+
+    p.mb-5 Se forma de manera horizontal y es usado en ropa interior y deportiva debido a sus propiedades de elongación y ajuste a la contextura física.
+
+    h4.titulo-cuarto Ligamentos de tejido por trama
+
+    p.mb-5 En este tipo de tejido la variedad de diseño le permiten al usuario diferentes opciones de tejido desde la construcción básica de la tela, los ligamentos más conocidos en tejido por trama son:
+
+    // TODO: pendiente tabs horizontales de ligamentos
+
+    h3.titulo-tercero Tejido de punto por urdidumbre
+
+    p.mb-5 Los hilos son entrelazados en la urdimbre formando mallas verticales difíciles de destejer, no presenta elongación y son empleados, usualmente, para la fabricación de cintas de encaje, blondas, tul, mallas, elásticos. 
+
+    .row.justify-content-center
+      .col-lg-4.mb-5.d-flex
+        div.box-normal.pink
+          figure
+            img(src="@/assets/curso/tema1-imagen17.jpg")
+          p.mb-0.p-5
+            strong Tul
+            br
+            br
+            | La elaboración de este tejido forma cavidades, puede tener apliques y encontrarse rígido o elástico, por lo cual puede ser empleado en ropa exterior o interior.
+      .col-lg-4.mb-5.d-flex
+        div.box-normal.pink
+          figure
+            img(src="@/assets/curso/tema1-imagen18.jpg")
+          p.mb-0.p-5
+            strong Encaje
+            br
+            br
+            | Este tipo de tejido construye una tela rígida, con variedad de diseños y pesos, es utilizada para blusas, vestidos y pantalones femeninos.
+    .row.justify-content-center
+      .col-lg-4.mb-5.d-flex
+        div.box-normal.pink
+          figure
+            img(src="@/assets/curso/tema1-imagen19.jpg")
+          p.mb-0.p-5
+            strong Elásticos
+            br
+            br
+            | Este tipo de insumo es fabricado mediante tejido de punto por urdimbre. En el mercado se encuentran diferentes medidas y usos dependiendo de las necesidades del producto final.
+      .col-lg-4.mb-5.d-flex
+        div.box-normal.pink
+          figure
+            img(src="@/assets/curso/tema1-imagen20.jpg")
+          p.mb-0.p-5
+            strong Blonda
+            br
+            br
+            | Esta tela puede encontrarse en diferentes anchos, en esta se emplea el tejido de punto por urdimbre, tiene aplicaciones en blusas y ropa interior.
+    
+    Separador
+
+    #t_1_3.titulo-segundo
+      h2 1.3    No tejidos
+
+    p.mb-5 Mediante procesos mecánicos, térmicos o químicos y con el empleo de fibras cortas, naturales, artificiales o mezclas. se forman los no tejidos que tienen variedad de usos en la salud, aseo, industria agrícola, construcción, marroquinería, decoración y confección.
+
+    .row.justify-content-center
+      .col-lg-9
+        .row.align-items-center
+          .col-6
+            figure
+              img(src="@/assets/curso/tema1-imagen21.png")
+          .col-6
+            p.mb-0
+              strong Este insumo es muy versátil, ya que se puede conseguir en diferentes calibres, colores y texturas.
+              br
+              br
+              | Para el área de la industria del diseño y confección, se encuentran fusionables y no fusionables que permiten mejorar la apariencia de algunas piezas de las prendas confeccionadas como cuellos, puños, perillas y pretinas, entre otros.
+    
+    Separador
+
+    #t_1_4.titulo-segundo
+      h2 1.4    Calidad textil
+
+    .row.justify-content-center.align-items-center.mb-5 
+      .col-lg-6.mb-lg-0.mb-5
+        p.mb-0 El control de calidad textil tiene como objetivo reducir fallas en el proceso de construcción o tejeduría de la tela, y entre las condiciones de los insumos a garantizar se encuentran, el peso requerido, el diseño del tejido y el tipo de ligamento, entre otros; estos requerimientos son necesarios para asegurar el buen comportamiento del diseño final de la prenda.
+          br
+          br
+          | Por ello, los requisitos de una tela para una camisa o un pantalón son diferentes, por lo que se deben seleccionar acertadamente el diseño y la materia prima para que la prenda de vestir logre satisfacer la necesidad del usuario.
+      .col-lg-6
+        figure.offset-image.pink.inverse
+          img(src="@/assets/curso/tema1-imagen22.jpg")
+        
+    h3.titulo-tercero Características, usos y cuidados de las telas
+
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-lg-0.mb-5
+        p.mb-0 En el mercado textil hay variedad de telas y estas reciben su nombre según el peso, tipo de tejido, clase de ligamento, texturas, colores, materias primas, o tendencia de moda, por lo cual, se debe seleccionar la materia prima para un diseño de manera acertada según los requerimientos del producto final. Desde la fabricación de la tela, esta se puede concebir para camisa, pantalón, ropa hogar, ropa interior o deportiva. 
+      .col-lg-5
+        p.mb-0
+          strong Algunas de las telas más reconocidas son algodón, linos, índigos, driles, chalís, sedas, jersey, gabardinas, tules, encajes, blondas, elastómeros en algodón (lycra en algodón), telas impermeables y lonas. 
+
+    figure.mb-5
+      img(src="@/assets/curso/tema1-imagen23.svg")
+
+    p.mb-0 Los cuidados de las telas pueden variar según la fibra con la que está fabricada. Como protección al consumidor y reglamentación para el productor, la Norma Técnica Colombiana (NTC) 1806:2014 reglamenta la simbología a utilizar y los cuidados específicos para los productos textiles.
     //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
     //- se encuentra en src/components/Muestras.vue
     //- Una vez el componente "Muestras" no se necesite 

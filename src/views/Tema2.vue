@@ -169,6 +169,8 @@
                 br
                 | Se usa la lija, <i>motortull</i>, esponja, esmeril, plastiflechas, pintura, salpicados y amarres.
 
+            
+
 </template>
 
 <script>
