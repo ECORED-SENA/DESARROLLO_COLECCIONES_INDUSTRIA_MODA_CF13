@@ -40,7 +40,72 @@
     // TODO: Completar tab de fibras de origen vegetal
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Origen vegetal")
-        .row
+        .row.justify-content-center
+          .col-lg-9
+            h4.titulo-cuarto Origen vegetal
+            p.mb-5 Se pueden encontrar en semillas, tallos o frutos, como se puede apreciar en la siguiente tabla:
+
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                thead
+                  tr
+                    th Semillas
+                    th Tallo
+                    th Hojas
+                    th Frutos
+                tbody
+                  tr
+                    td Algodón
+                    td
+                      p.mb-0 Lino
+                      br
+                      | Yute.
+                      br
+                      | Cáñamo.
+                    td
+                      p.mb-0 Maguey
+                      br
+                      | Sisal o henequén.
+                    td Coco
+                  tr
+                    td Uso textil.
+                    td Uso textil y artesanal.
+                    td Uso artesanal e industrial.
+                    td Uso artesanal.
+
+            .row.align-items-center.cajon-extra.blue.mb-5
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1-imagen25.jpg")
+              .col-lg-8
+                p.mb-0
+                  strong Algodón
+                  br
+                  br
+                  | Es conocida como la fibra reina ya que se puede mezclar con facilidad con otras fibras, y presenta absorción y suavidad al tacto. Se usa en variedad de prendas: camisetas, camisas pantalones y chaquetas, entre otras.
+
+            .row.align-items-center.cajon-extra.blue.mb-5
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1-imagen26.jpg")
+              .col-lg-8
+                p.mb-0
+                  strong Fibra de lino
+                  br
+                  br
+                  | Se obtiene del tallo con propiedades de absorción y tacto frio, es ideal para ser usada en climas cálidos. Se usa en variedad de prendas camisetas, camisas pantalones, chaquetas.
+
+            .row.align-items-center.cajon-extra.blue.mb-5
+              .col-lg-4
+                figure
+                  img(src="@/assets/curso/tema1-imagen27.jpg")
+              .col-lg-8
+                p.mb-0
+                  strong Sisal o henequén 
+                  br
+                  br
+                  | Se obtiene de esta hoja tras seguir el proceso de secado e hilado, se utiliza a nivel artesanal o industrial, para sombreros, canastos, bolsos, decoración, tapicería.
+
       .py-3.py-md-4(titulo="Origen animal")
         .row.justify-content-center
           .col-lg-9
@@ -72,7 +137,7 @@
                   | Para la industria textil se obtiene principalmente de la oveja y el carnero, tiene propiedades higroscópicas y térmicas las cuales son aprovechadas para su uso en climas extremos. Se usa para abrigos, chaquetas, pantalones.
 
 
-            .row.align-items-center.cajon-extra.blue
+            .row.align-items-center.cajon-extra.blue.mb-5
               .col-lg-4
                 figure
                   img(src="@/assets/curso/tema1-imagen4.jpg")
@@ -116,32 +181,34 @@
 
     p.mb-5 Estas fibras sintéticas son creadas totalmente por el ser humano a partir de elementos químicos derivados del petróleo, las cuales tienen propiedades para brindar mayor durabilidad, resistencia, secado rápido con lo que se elimina el planchado. Entre las más utilizadas en confección están las siguientes: nailon o poliamida, poliéster, polipropileno y elastómeros.
 
-    // TODO: Completar botones de clasificacion de fibras artificales
     TabsA.color-primario.mb-5
       .tarjeta.color-acento-contenido.p-4(titulo="Nailon o Poliamida")
-        .row.justify-content-center.px-1.py-3.align-items-center
+        .row.justify-content-center.px-1.py-3
           .col-lg-4.mb-lg-0.mb-4
             figure
-              img(src="@/assets/curso/tema1-imagen24.jpg")
+              img(src="@/assets/curso/tema1-imagen28.jpg")
           .col-lg-7
             p.mb-0
-              strong Acrilán/acrílicos
+              strong Nailon o Poliamida
               br
               br
-              | Es una fibra sintética resistente a las polillas, es de fácil planchado, menor peso, puede imitar a otras fibras como el algodón o la lana en apariencia. Se pueden confeccionar prendas como chaquetas, pantalones y ropa infantil. La materia prima de la tela es acrilán/lana.
+              | Es un polímero con propiedades de resistencia, transparencia, elasticidad. Tiene variedad de usos que van desde hilos muy delgados utilizados para confección o cuerdas para sujetar; telas, cremalleras, ropa interior y deportiva, pantimedias, cuerdas, tanques redes, paracaídas.
+              br
+              br
+              | En la figura anterior se observan hilos de nailon que en conjunto dan forma a la tela con su principal materia prima.
       .tarjeta.color-acento-contenido.p-4(titulo="Poliester")
-        .row.justify-content-center.px-1.py-3.align-items-center
+        .row.justify-content-center.px-1.py-3
           .col-lg-4.mb-lg-0.mb-4
             figure
-              img(src="@/assets/curso/tema1-imagen24.jpg")
+              img(src="@/assets/curso/tema1-imagen29.jpg")
           .col-lg-7
             p.mb-0
               strong Poliéster
               br
               br
-              | Es un polímero que tiene propiedades como bajo peso, solidez en el color; se mezcla con facilidad con otras fibras.
+              | Es un polímero que tiene propiedades como bajo peso, solidez en el color; se mezcla con facilidad con otras fibras. Materia prima poliéster.
       .tarjeta.color-acento-contenido.p-4(titulo="Acrilán/acrílicos")
-        .row.justify-content-center.px-1.py-3.align-items-center
+        .row.justify-content-center.px-1.py-3
           .col-lg-4.mb-lg-0.mb-4
             figure
               img(src="@/assets/curso/tema1-imagen24.jpg")
@@ -152,10 +219,10 @@
               br
               | Es una fibra sintética resistente a las polillas, es de fácil planchado, menor peso, puede imitar a otras fibras como el algodón o la lana en apariencia. Se pueden confeccionar prendas como chaquetas, pantalones y ropa infantil.
       .tarjeta.color-acento-contenido.p-4(titulo="Elastómero")
-        .row.justify-content-center.px-1.py-3.align-items-center
+        .row.justify-content-center.px-1.py-3
           .col-lg-4.mb-lg-0.mb-4
             figure
-              img(src="@/assets/curso/tema1-imagen24.jpg")
+              img(src="@/assets/curso/tema1-imagen30.jpg")
           .col-lg-7
             p.mb-0
               strong Elastómero
@@ -214,31 +281,43 @@
                   br
                   | Materia prima para la construcción de telas: hilos para trama, urdimbre o tejido de punto.
       .py-4.py-md-5(titulo="Procesos de costura" :icono="require('@/assets/curso/tema1-imagen10.svg')")
+        p.mb-5
+          strong Procesos de costura
         .row.justify-content-center
-          .col-lg-9
-            .row
-              .col-6
-                figure
-                  img(src="@/assets/curso/tema1-imagen12.png")
-              .col-6
-                p.mb-0
-                  strong Hilatura
-                  br
-                  br
-                  | Materia prima para la construcción de telas: hilos para trama, urdimbre o tejido de punto.
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/tema1-imagen32.jpg")
+            p.mb-0
+              strong Unir costuras:
+              br
+              | Se puede realizar en diferentes tipos de máquinas (maquina plana, sobrehiladora) juntando dos o más piezas.
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/tema1-imagen33.jpg")
+            p.mb-0
+              strong Pespuntar:
+              br
+              | Esta operación lo que pretende es decorar o fortalecer una operación anterior, por ejemplo cerrar cuello, pespuntar cuello, entre otras.
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/tema1-imagen34.jpg")
+            p.mb-0
+              strong Bordado:
+              br
+              | Los hilos para bordados presentan brillo.
       .py-4.py-md-5(titulo="Hilos industriales" :icono="require('@/assets/curso/tema1-imagen11.svg')")
         .row.justify-content-center
           .col-lg-9
             .row
               .col-6
                 figure
-                  img(src="@/assets/curso/tema1-imagen12.png")
+                  img(src="@/assets/curso/tema1-imagen31.png")
               .col-6
                 p.mb-0
-                  strong Hilatura
+                  strong Hilos industriales
                   br
                   br
-                  | Materia prima para la construcción de telas: hilos para trama, urdimbre o tejido de punto.
+                  | Tiene variedad de usos: calzado, tapicería, construcción, pesca; cáñamos cabuyas, nailon y lazos, entre otros.
       
     
     h3.titulo-tercero Características y usos de los hilos
@@ -300,7 +379,7 @@
 
     p.mb-5 En este tipo de tejido se presentan diversos ligamentos que corresponden a diferentes formas en las que se entrelazan los hilos obteniendo así variedad en diseño; entre los básicos están tafetán o plano, sarga o diagonal, satín o raso.
 
-    // TODO: pendiente imagenes con giro
+    FlipCards(:items="flips1")
 
     h3.titulo-tercero Tejido de punto
 
@@ -309,7 +388,7 @@
         .row.ps-4.align-items-center(style="background-color: #D8EFFB;")
           .col-lg-4.mb-lg-0.mb-5
             figure.mb-2(style="min-width: 100%; text-align: center;")
-              img(src="@/assets/curso/tema1-imagen16.jpg" style="max-height: 120px; object-fit: contain;")
+              img(src="@/assets/curso/tema1-imagen41.svg" style="max-height: 120px; object-fit: contain;")
             p.mb-0 Imagen de tejido de punto, donde se puede observar como el hilo se entrelaza en sí mismo.
           .col-lg-8
             img(src="@/assets/curso/tema1-imagen15.jpg")
@@ -326,7 +405,52 @@
 
     p.mb-5 En este tipo de tejido la variedad de diseño le permiten al usuario diferentes opciones de tejido desde la construcción básica de la tela, los ligamentos más conocidos en tejido por trama son:
 
-    // TODO: pendiente tabs horizontales de ligamentos
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color-acento-contenido.p-4(titulo="Jersey")
+        .row.justify-content-center.px-1.py-3
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen42.png")
+          .col-lg-7
+            p.mb-0
+              strong Jersey
+              br
+              br
+              | Este tejido es un ligamento clásico a una sola cara, fácilmente se le distingue el derecho y el revés. Se pueden obtener variedad de texturas y pesos; se utiliza para la fabricación de camisetas, vestidos.
+      .tarjeta.color-acento-contenido.p-4(titulo="Pique")
+        .row.justify-content-center.px-1.py-3
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen43.png")
+          .col-lg-7
+            p.mb-0
+              strong Pique
+              br
+              br
+              | Su tejido en forma de panal, tiene diferente apariencia en el derecho y el revés, es de textura suave (pocas arrugas), fácil de cortar, con estabilidad dimensional y empleado, especialmente, en camisetas.
+      .tarjeta.color-acento-contenido.p-4(titulo="Ribb o punto liso")
+        .row.justify-content-center.px-1.py-3
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen44.png")
+          .col-lg-7
+            p.mb-0
+              strong Ribb o punto liso
+              br
+              br
+              | Este tipo de tejido de punto tiene mayor elongación y es usado especialmente para dar forma a cuellos, puños y fajones de diferentes prendas deportivas, pijamas y ropa infantil.
+      .tarjeta.color-acento-contenido.p-4(titulo="<i>Interlock</i>")
+        .row.justify-content-center.px-1.py-3
+          .col-lg-4.mb-lg-0.mb-4
+            figure
+              img(src="@/assets/curso/tema1-imagen45.png")
+          .col-lg-7
+            p.mb-0
+              strong Interlock
+              br
+              br
+              | Este tejido también es muy utilizado en el área de confección, en este no se marca con claridad el derecho y revés, tiene buena estabilidad y menor elasticidad que el jersey; es empleado para la elaboración de camisetas, vestidos y pijamas.
+
 
     h3.titulo-tercero Tejido de punto por urdidumbre
 
@@ -419,24 +543,59 @@
       img(src="@/assets/curso/tema1-imagen23.svg")
 
     p.mb-0 Los cuidados de las telas pueden variar según la fibra con la que está fabricada. Como protección al consumidor y reglamentación para el productor, la Norma Técnica Colombiana (NTC) 1806:2014 reglamenta la simbología a utilizar y los cuidados específicos para los productos textiles.
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
+import FlipCards from '../components/FlipCards'
 export default {
   name: 'Tema1',
   components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
+    FlipCards,
   },
   data: () => ({
     // variables de vue
+    flips1: [
+      {
+        title: 'Tafetán o plano',
+        content:
+          'Este tipo de tejido es el más antiguo, los ligamentos van uno a uno, un hilo de trama y urdimbre. Es utilizado en telas para camisas, pantalones y ropa de hogar.',
+        img: require('@/assets/curso/tema1-imagen35.jpg'),
+        imgExtra: require('@/assets/curso/tema1-imagen38.svg'),
+        reverseBackgroundColor: '#BF397688',
+        reverseFontColor: '#FFFFFF',
+        showTitleFront: true,
+        frontTitleBackgroundColor: '#BF3976',
+        frontTitleFontColor: '#FFFFFF',
+        indicadorTarjetaFlip: true,
+      },
+      {
+        title: 'Sarga o diagonal',
+        content:
+          'En la construcción de este tejido se observa una diagonal hacia la izquierda o a la derecha; puede formar relieve al combinarse diferentes calibres de hilos. ',
+        img: require('@/assets/curso/tema1-imagen36.jpg'),
+        imgExtra: require('@/assets/curso/tema1-imagen39.svg'),
+        reverseBackgroundColor: '#BF397688',
+        reverseFontColor: '#FFFFFF',
+        showTitleFront: true,
+        frontTitleBackgroundColor: '#BF3976',
+        frontTitleFontColor: '#FFFFFF',
+        indicadorTarjetaFlip: true,
+      },
+      {
+        title: 'Satín o raso',
+        content:
+          'Es un tejido liso, pastoso, lustroso donde la urdimbre es muy fina, es comúnmente utilizado para fabricación de la seda. Como producto final se usa en vestidos, camisas y blusas.',
+        img: require('@/assets/curso/tema1-imagen37.jpg'),
+        imgExtra: require('@/assets/curso/tema1-imagen40.svg'),
+        reverseBackgroundColor: '#BF397688',
+        reverseFontColor: '#FFFFFF',
+        showTitleFront: true,
+        frontTitleBackgroundColor: '#BF3976',
+        frontTitleFontColor: '#FFFFFF',
+        indicadorTarjetaFlip: true,
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
