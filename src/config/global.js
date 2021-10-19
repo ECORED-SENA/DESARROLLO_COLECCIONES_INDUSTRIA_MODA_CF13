@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Mercerizado',
       significado:
-        'es la acción de la soda cáustica sobre la tela, se usa en el lino y algodón, y resulta en un aumento del lustre, el brillo y la suavidad. Provoca un encogimiento del tejido de hasta 25%, aumenta la resistencia y genera una mayor afinidad a los colorantes.',
+        'es la acción de la soda cáustica sobre la tela, se usa en el lino y algodón, y resulta en un aumento del lustre, el brillo y la suavidad. Provoca un encogimiento del tejido de hasta 25 %, aumenta la resistencia y genera una mayor afinidad a los colorantes.',
     },
     {
       termino: 'Piqué',
@@ -213,7 +213,8 @@ export default {
       link: 'https://www.youtube.com/watch?v=gUfjXa-if2A&t=6s',
     },
     {
-      texto: 'www.telas.com. (s.f.). Glosario textil.',
+      texto:
+        'Telas.com. El Blog de Ribes y Casals. (s.f.). Glosario textil: tipos de telas y características.',
       tipo: 'Página web',
       link: 'https://telas.com/glosario-textil/de-la-m-a-la-p/',
     },
@@ -233,49 +234,66 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Flor Ángela Montoya Rendón',
+        cargo: 'Instructora',
+        centro: 'Centro de Diseño Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro para la Comunicación de la Industria Gráfica Regional - Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Comunicación de la Industria Gráfica Regional - Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte Front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Sergio Omar Camacho Orduz',
+        cargo: 'Desarrollo Front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

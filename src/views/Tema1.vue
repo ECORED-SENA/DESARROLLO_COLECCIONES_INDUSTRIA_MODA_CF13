@@ -37,7 +37,6 @@
 
     p.mb-5 Las fibras naturales son obtenidas de la naturaleza, y están dadas según su procedencia: animal, vegetal o mineral; algunas de estas fibras son más utilizadas en el plano textil y otras a nivel artesanal. 
 
-    // TODO: Completar tab de fibras de origen vegetal
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Origen vegetal")
         .row.justify-content-center
@@ -45,7 +44,7 @@
             h4.titulo-cuarto Origen vegetal
             p.mb-5 Se pueden encontrar en semillas, tallos o frutos, como se puede apreciar en la siguiente tabla:
 
-            .tabla-a.color-acento-botones.mb-5 
+            .tabla-a.color-acento-contenido.mb-5 
               table
                 thead
                   tr
@@ -59,19 +58,19 @@
                     td
                       p.mb-0 Lino
                       br
-                      | Yute.
+                      | Yute
                       br
-                      | Cáñamo.
+                      | Cáñamo
                     td
                       p.mb-0 Maguey
                       br
-                      | Sisal o henequén.
+                      | Sisal o henequén
                     td Coco
                   tr
-                    td Uso textil.
-                    td Uso textil y artesanal.
-                    td Uso artesanal e industrial.
-                    td Uso artesanal.
+                    td Uso textil
+                    td Uso textil y artesanal
+                    td Uso artesanal e industrial
+                    td Uso artesanal
 
             .row.align-items-center.cajon-extra.blue.mb-5
               .col-lg-4
@@ -82,7 +81,7 @@
                   strong Algodón
                   br
                   br
-                  | Es conocida como la fibra reina ya que se puede mezclar con facilidad con otras fibras, y presenta absorción y suavidad al tacto. Se usa en variedad de prendas: camisetas, camisas pantalones y chaquetas, entre otras.
+                  | Es conocida como la fibra reina ya que se puede mezclar con facilidad con otras fibras, y presenta absorción y suavidad al tacto. Se usa en variedad de prendas: camisetas, camisas, pantalones y chaquetas, entre otras.
 
             .row.align-items-center.cajon-extra.blue.mb-5
               .col-lg-4
@@ -93,7 +92,7 @@
                   strong Fibra de lino
                   br
                   br
-                  | Se obtiene del tallo con propiedades de absorción y tacto frio, es ideal para ser usada en climas cálidos. Se usa en variedad de prendas camisetas, camisas pantalones, chaquetas.
+                  | Se obtiene del tallo con propiedades de absorción y tacto frio, es ideal para ser usada en climas cálidos. Se usa en variedad de prendas: camisetas, camisas, pantalones y chaquetas.
 
             .row.align-items-center.cajon-extra.blue.mb-5
               .col-lg-4
@@ -114,7 +113,7 @@
 
             .row.justify-content-center
               .col-lg-9
-                .tabla-a.color-acento-botones.mb-5 
+                .tabla-a.color-acento-contenido.mb-5 
                   table
                     thead
                       tr
@@ -182,21 +181,21 @@
     p.mb-5 Estas fibras sintéticas son creadas totalmente por el ser humano a partir de elementos químicos derivados del petróleo, las cuales tienen propiedades para brindar mayor durabilidad, resistencia, secado rápido con lo que se elimina el planchado. Entre las más utilizadas en confección están las siguientes: nailon o poliamida, poliéster, polipropileno y elastómeros.
 
     TabsA.color-primario.mb-5
-      .tarjeta.color-acento-contenido.p-4(titulo="Nailon o Poliamida")
+      .tarjeta.color-acento-contenido.p-4(titulo="Nailon o poliamida")
         .row.justify-content-center.px-1.py-3
           .col-lg-4.mb-lg-0.mb-4
             figure
               img(src="@/assets/curso/tema1-imagen28.jpg")
           .col-lg-7
             p.mb-0
-              strong Nailon o Poliamida
+              strong Nailon o poliamida
               br
               br
               | Es un polímero con propiedades de resistencia, transparencia, elasticidad. Tiene variedad de usos que van desde hilos muy delgados utilizados para confección o cuerdas para sujetar; telas, cremalleras, ropa interior y deportiva, pantimedias, cuerdas, tanques redes, paracaídas.
               br
               br
               | En la figura anterior se observan hilos de nailon que en conjunto dan forma a la tela con su principal materia prima.
-      .tarjeta.color-acento-contenido.p-4(titulo="Poliester")
+      .tarjeta.color-acento-contenido.p-4(titulo="Poliéster")
         .row.justify-content-center.px-1.py-3
           .col-lg-4.mb-lg-0.mb-4
             figure
@@ -251,7 +250,7 @@
               figure
                 img(src="@/assets/curso/tema1-imagen8.svg")
             .col-8
-              .h5 Los hilos se clasifican según
+              .h5 Los hilos se clasifican según:
               ol.lista-ol.mb-0
                 li.mb-0
                   span.text-bold a. 
@@ -373,6 +372,7 @@
         figure.offset-image.blue
           img(src="@/assets/curso/tema1-imagen14.jpg")
       .col-lg-6
+        h3 Tejido plano
         p.mb-0 Este tipo de tejido está constituido por hilos entrelazados longitudinalmente formando un ángulo de 90 grados, se conocen los hilos horizontales con trama, presenta mayor elongación que la urdimbre, que corresponde a los hilos verticales. Es un tejido rígido y resistente, usado para la confección de ropa exterior, ropa hogar y usos industriales. 
     
     h4.titulo-cuarto Tipos de ligamento en tejido plano
@@ -392,8 +392,10 @@
             p.mb-0 Imagen de tejido de punto, donde se puede observar como el hilo se entrelaza en sí mismo.
           .col-lg-8
             img(src="@/assets/curso/tema1-imagen15.jpg")
-
-    p.mb-5.text-center Máquina circular utilizada para el proceso de tejeduría para el tejido de punto. 
+      .col-lg-10
+        .row
+          .col-lg-8.offset-lg-4
+            p.mb-5.text-center Máquina circular utilizada para el proceso de tejeduría para el tejido de punto. 
 
     p.mb-5 El tejido de punto está formado por mallas entrelazadas en sí mismas en las que se distinguen dos tipos de tejido: de punto por trama y de punto por urdimbre.
 
@@ -403,7 +405,7 @@
 
     h4.titulo-cuarto Ligamentos de tejido por trama
 
-    p.mb-5 En este tipo de tejido la variedad de diseño le permiten al usuario diferentes opciones de tejido desde la construcción básica de la tela, los ligamentos más conocidos en tejido por trama son:
+    p.mb-5 Dentro del tejido de punto por trama, los ligamentos por trama son una variedad que permiten opciones de tejido en la construcción básica de la tela. Los ligamentos más conocidos en tejido por trama son:
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-contenido.p-4(titulo="Jersey")
@@ -500,7 +502,7 @@
     #t_1_3.titulo-segundo
       h2 1.3    No tejidos
 
-    p.mb-5 Mediante procesos mecánicos, térmicos o químicos y con el empleo de fibras cortas, naturales, artificiales o mezclas. se forman los no tejidos que tienen variedad de usos en la salud, aseo, industria agrícola, construcción, marroquinería, decoración y confección.
+    p.mb-5 Mediante procesos mecánicos, térmicos o químicos y con el empleo de fibras cortas, naturales, artificiales o mezclas, se forman los no tejidos que tienen variedad de usos en la salud, aseo, industria agrícola, construcción, marroquinería, decoración y confección.
 
     .row.justify-content-center
       .col-lg-9

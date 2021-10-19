@@ -54,26 +54,26 @@
     figure.mb-5
       img(src="@/assets/curso/tema2-imagen5.jpg")
 
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Estampación por cilindros")
+    TabsA.color-primario.mb-5
+      .tarjeta.celeste.p-4(titulo="Estampación por cilindros")
         p.mb-0
           strong Estampación por cilindros
           br
           br
           | Este procedimiento se realiza a los rollos de la tela usando cilindros con diseños definidos y un máximo de 12 colores, la tela en crudo o color base se desliza por bandas aplicando el color a la vez que se fija mediante calor.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Estampación por shablones")
+      .tarjeta.celeste.p-4(titulo="Estampación por shablones")
         p.mb-0
           strong Estampación por shablones
           br
           br
           | Estos marcos con diseño revelado y clasificado por color realizada en una micromalla, donde se sobrepone el diseño sobre la tela o prenda para aplicar el color capa por capa.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Estampación por sublimación")
+      .tarjeta.celeste.p-4(titulo="Estampación por sublimación")
         p.mb-0
           strong Estampación por sublimación
           br
           br
           | El diseño previamente realizado en papel es transferido a la tela mediante calor.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Estampación digital")
+      .tarjeta.celeste.p-4(titulo="Estampación digital")
         p.mb-0
           strong Estampación digital
           br
