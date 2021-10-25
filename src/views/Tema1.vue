@@ -57,10 +57,12 @@
                     td Algodón
                     td
                       p.mb-0 Lino
-                      br
-                      | Yute
-                      br
-                      | Cáñamo
+                        br
+                        br
+                        | Yute
+                        br
+                        br
+                        | Cáñamo
                     td
                       p.mb-0 Maguey
                       br
@@ -254,7 +256,7 @@
               ol.lista-ol.mb-0
                 li.mb-0
                   span.text-bold a. 
-                  | Sistema de hilatura (tejido punto /tejido plano).
+                  | Sistema de hilatura (tejido punto/tejido plano).
                 li.mb-0
                   span.text-bold b. 
                   | Uso final.

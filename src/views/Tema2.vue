@@ -152,7 +152,7 @@
               p.mb-0
                 strong <i>Bleach</i> con hipoclorito de sodio
                 br
-                | Para obtener los azules medios o claros de este proceso, primero se realizan los procesos de lavandería. No es recomendable en denim que contengan proporciones altas de elastómeros y poliéster; es recomendado para 100% algodón.
+                | Para obtener los azules medios o claros de este proceso, primero se realizan los procesos de lavandería. No es recomendable en denim que contengan proporciones altas de elastómeros y poliéster; es recomendado para 100 % algodón.
             li 
               p.mb-0
                 strong <i>Bleach</i> con permanganato

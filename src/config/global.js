@@ -132,12 +132,6 @@ export default {
     },
     {
       referencia:
-        'Lafayette. (s.f.). Todo lo que debes saber sobre tipos de acabados textiles. ',
-      link:
-        'https://www.lafayettesports.com.co/noticias/confeccion-deportiva/todo-lo-que-debes-saber-sobre-tipos-de-acabados-textiles/',
-    },
-    {
-      referencia:
         'Peñafiel, C., J. (2018). Diseño y construcción de un foulard automatizado para desarrollar prácticas de laboratorio. [Tesis de ingeniería industrial]. Universidad Técnica del Norte. ',
     },
   ],
